@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blue Left — BioBuzz Auto Paths</title>
+<meta name="description" content="Blue Left autonomous route: waypoints, headings and source.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+<strong><a href="index.html">BioBuzz Auto Paths</a></strong>
+<span class="muted small">Team Absolute Zero &middot; 2026&ndash;2027</span>
+<nav><a href="red-left.html">Red Left</a><a href="blue-left.html">Blue Left</a><a href="red-middle.html">Red Middle</a><a href="blue-middle.html">Blue Middle</a><a href="red-right.html">Red Right</a><a href="blue-right.html">Blue Right</a><a href="blue-left-left.html">Blue Left Left</a></nav>
+</div></header>
+<div class="wrap">
+
+<h1>Blue Left</h1>
+<p class="lede"><span class="tag blue">Blue alliance</span> &nbsp; Start
+<code>(88, 8)</code> at <code>90&deg;</code> &nbsp;&middot;&nbsp; 4 legs then park
+&nbsp;&middot;&nbsp; 211&quot; of path.</p>
+
+<div class="field"><img src="assets/biobuzz-dark.webp" alt="BioBuzz field"><svg viewBox="0 0 141.5 141.5" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><g transform="matrix(1 0 0 -1 0 141.5)"><g opacity="1"><path fill="none" id="line-1" d="M 88 8 L 133.8565 44.6472" stroke="#4e79a7" stroke-width="0.57" stroke-linecap="round"></path><path fill="none" id="line-2" d="M 133.8565 44.6472 C 124.84416666666667 85.4318 111.71699999999998 110.30806666666666 94.475 119.276" stroke="#f28e2b" stroke-width="0.57" stroke-linecap="round"></path><path fill="none" id="line-3" d="M 94.475 119.276 C 108.68613333333333 116.37226666666666 112.17996666666667 120.56486666666667 104.9565 131.8538" stroke="#59a14f" stroke-width="0.57" stroke-linecap="round"></path><path fill="none" id="line-4" d="M 104.9565 131.8538 L 104.1454 121.7491" stroke="#b07aa1" stroke-width="0.57" stroke-linecap="round"></path><path fill="none" id="line-5" d="M 104.1454 121.7491 L 128.7 105.9" stroke="#76b7b2" stroke-width="0.78375" stroke-linecap="round"></path></g><g opacity="1"><circle id="point-0-0" cx="88" cy="8" r="1" fill="#4e79a7"></circle><g id="point-1-0"><circle cx="133.8565" cy="44.6472" r="1" fill="#4e79a7"></circle></g><g id="point-2-0"><circle cx="94.475" cy="119.276" r="1" fill="#f28e2b"></circle></g><g id="point-2-1"><circle cx="120.338" cy="105.8241" r="1" fill="#f28e2b"></circle></g><g id="point-3-0"><circle cx="104.9565" cy="131.8538" r="1" fill="#59a14f"></circle></g><g id="point-3-1"><circle cx="115.7917" cy="114.9204" r="1" fill="#59a14f"></circle></g><g id="point-4-0"><circle cx="104.1454" cy="121.7491" r="1" fill="#b07aa1"></circle></g><g id="point-5-0"><circle cx="128.7" cy="105.9" r="1.75" fill="#76b7b2"></circle></g></g><g transform="translate(133.8565,44.6472) scale(1,-1)"><circle cx="0" cy="0" r="3.1" fill="#4e79a7" fill-opacity="0.9"/><text x="0" y="1.15" text-anchor="middle" font-size="3.4" font-weight="500" fill="#0f1115" font-family="sans-serif">1</text></g><g transform="translate(94.4750,119.2760) scale(1,-1)"><circle cx="0" cy="0" r="3.1" fill="#f28e2b" fill-opacity="0.9"/><text x="0" y="1.15" text-anchor="middle" font-size="3.4" font-weight="500" fill="#0f1115" font-family="sans-serif">2</text></g><g transform="translate(104.9565,131.8538) scale(1,-1)"><circle cx="0" cy="0" r="3.1" fill="#59a14f" fill-opacity="0.9"/><text x="0" y="1.15" text-anchor="middle" font-size="3.4" font-weight="500" fill="#0f1115" font-family="sans-serif">3</text></g><g transform="translate(104.1454,121.7491) scale(1,-1)"><circle cx="0" cy="0" r="3.1" fill="#b07aa1" fill-opacity="0.9"/><text x="0" y="1.15" text-anchor="middle" font-size="3.4" font-weight="500" fill="#0f1115" font-family="sans-serif">4</text></g><g transform="translate(128.7000,105.9000) scale(1,-1)"><circle cx="0" cy="0" r="3.1" fill="#76b7b2" fill-opacity="0.9"/><text x="0" y="1.15" text-anchor="middle" font-size="3.4" font-weight="500" fill="#0f1115" font-family="sans-serif">5</text></g><g transform="translate(88.0000,8.0000) scale(1,-1)"><circle cx="0" cy="0" r="3.1" fill="#ffffff" fill-opacity="0.92"/><text x="0" y="1.15" text-anchor="middle" font-size="3" font-weight="500" fill="#0f1115" font-family="sans-serif">S</text></g></g></svg></div>
+
+<h2>Waypoints</h2>
+<p class="small muted">In driving order. &ldquo;Turn&rdquo; is the heading change over that leg;
+the robot turns evenly across the whole leg (<code>linear</code>), it does not turn then drive.</p>
+<table>
+<thead><tr><th>Leg</th><th>Pose</th><th>X</th><th>Y</th><th>Heading</th><th>Turn</th>
+<th>Control points</th><th>Length</th><th>Nearest element</th></tr></thead>
+<tbody><tr><td><span class='sw' style='background:#4e79a7'></span>1</td><td><code>path1</code></td><td>133.8565</td><td>44.6472</td><td>13&deg;</td><td>-77&deg;</td><td><span class="muted">&mdash;</span></td><td>58.7&quot;</td><td class='muted'>Blue HIVE (47&quot;)</td></tr><tr><td><span class='sw' style='background:#f28e2b'></span>2</td><td><code>point2</code></td><td>94.4750</td><td>119.2760</td><td>255&deg;</td><td>-118&deg;</td><td>120.3380, 105.8241</td><td>86.7&quot;</td><td class='muted'>Blue HIVE (49&quot;)</td></tr><tr><td><span class='sw' style='background:#59a14f'></span>3</td><td><code>point3</code></td><td>104.9565</td><td>131.8538</td><td>135&deg;</td><td>-120&deg;</td><td>115.7917, 114.9204</td><td>26.5&quot;</td><td class='muted'>Blue Alliance FLOWER (51&quot;)</td></tr><tr><td><span class='sw' style='background:#b07aa1'></span>4</td><td><code>point4</code></td><td>104.1454</td><td>121.7491</td><td>247&deg;</td><td>+112&deg;</td><td><span class="muted">&mdash;</span></td><td>10.1&quot;</td><td class='muted'>Blue Alliance FLOWER (45&quot;)</td></tr><tr><td><span class='sw' style='background:#76b7b2'></span>5</td><td><code>park</code></td><td>128.7000</td><td>105.9000</td><td>247&deg;</td><td>+0&deg;</td><td><span class="muted">&mdash;</span></td><td>29.2&quot;</td><td class='muted'>Blue Alliance FLOWER (16&quot;)</td></tr></tbody>
+</table>
+
+<div class="note"><p>Mirrored copy of <strong>Red Left</strong>: X = 144 &minus; red X, heading = 180 &minus; red heading.</p></div><div class="note"><p><strong>BlueLeftLime1</strong> drives this same route, then runs a Limelight ball search before parking. That search is driven by what the camera sees, so it has no fixed path and cannot be drawn.</p></div>
+
+<h2>Runs as</h2>
+<ul><li><code>Blue Left Auto</code></li><li><code>1S / 1T / 2T Blue Left Auto</code></li><li><code>Blue Left Lime 1</code></li><li><code>1S / 1T / 2T Blue Left Lime 1</code></li></ul>
+<p class="small muted">Source: <code>BlueLeftAuto.java</code>, <code>BlueLeftLime1.java</code></p>
+
+<h2>The Java that builds it</h2>
+<pre><code>// leg 1 → path1
+Paths.line(start, path1).linear(start, path1)
+// leg 2 → point2
+Paths.curve(path1, point2Control1, point2).linear(path1, point2)
+// leg 3 → point3
+Paths.curve(point2, point3Control1, point3).linear(point2, point3)
+// leg 4 → point4
+Paths.line(point3, point4).linear(point3, point4)
+// leg 5 → park
+Paths.line(from, park).constant(from.heading())</code></pre>
+
+<div class="note"><p>Park is not a fixed final leg. The OpMode checks every loop whether the
+time left is only just enough to reach the park spot, and if so it abandons the route and
+drives there from wherever it is. The park leg drawn above is the normal
+end-of-route case.</p></div>
+
+<footer>
+Paths drawn in the <a href="https://visualizer.pedropathing.com">Pedro Pathing Visualizer</a>
+on the official BioBuzz field. Every coordinate on this site was read directly from the
+Java auto sources in <code>TeamCode/.../teamcode/auto/</code> and machine-checked against
+the drawn geometry.
+</footer>
+</div>
+</body>
+</html>
