@@ -17,7 +17,7 @@ headings, control points and the exact Java that builds it.
 | Blue Middle | Blue | 4 + park | 217″ |
 | Red Right | Red | 4 + park | 258″ |
 | Blue Right | Blue | 4 + park | 258″ |
-| Blue Left Left | Blue | 5 + park | — |
+| Blue Left Left | Blue | 5 + park | 400″ |
 
 ## Where the drawings come from
 
